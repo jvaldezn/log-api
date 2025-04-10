@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Log.Application.Interfaces\Log.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Log.Infrastructure.Configurations\Log.Infrastructure.Configurations.csproj" />
+    <ProjectReference Include="..\Log.Infrastructure.Interfaces\Log.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\Log.Transversal.Validator\Log.Transversal.Validator.csproj" />
+  </ItemGroup>
+
+</Project>
